@@ -16,6 +16,7 @@
                         AllowSpin="{TemplateBinding AllowSpin}"
                         Background="{TemplateBinding Background}"
                         BorderBrush="{TemplateBinding BorderBrush}"
+                        CornerRadius="{TemplateBinding CornerRadius}"
                         BorderThickness="{TemplateBinding BorderThickness}"
                         ShowButtonSpinner="{TemplateBinding ShowButtonSpinner}">
                         <Grid ColumnDefinitions="Auto,*,Auto">
@@ -28,7 +29,7 @@
                                 HorizontalAlignment="Stretch"
                                 VerticalAlignment="Stretch"
                                 BorderThickness="0,0,1,0"
-                                CornerRadius="6,0,0,6"
+                                CornerRadius="0"
                                 Command="{x:Null}"
                                 Content="−"
                                 Focusable="False"
@@ -79,7 +80,7 @@
                                 HorizontalAlignment="Stretch"
                                 VerticalAlignment="Stretch"
                                 BorderThickness="1,0,0,0"
-                                CornerRadius="0,6,6,0"
+                                CornerRadius="0"
                                 Command="{x:Null}"
                                 Content="+"
                                 Focusable="False"
