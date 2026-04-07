@@ -37,7 +37,6 @@
                             <Grid RowDefinitions="Auto, *">
                                 <ScrollViewer
                                     Grid.Row="0"
-                                    Grid.RowSpan="2"
                                     HorizontalScrollBarVisibility="{Binding (ScrollViewer.HorizontalScrollBarVisibility), RelativeSource={RelativeSource TemplatedParent}}"
                                     VerticalScrollBarVisibility="{Binding (ScrollViewer.VerticalScrollBarVisibility), RelativeSource={RelativeSource TemplatedParent}}">
                                     <ContentPresenter Name="PART_ContentPresenter" Content="{TemplateBinding Content}" />
