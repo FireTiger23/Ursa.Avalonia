@@ -91,7 +91,6 @@
                                 Name="PART_LabelPanel"
                                 Margin="{Binding #PART_Label.Bounds.Height, Converter={x:Static converters:FormContentHeightToMarginConverter.Instance}}"
                                 HorizontalAlignment="{TemplateBinding LabelAlignment}"
-                                VerticalAlignment="{Binding #PART_ContentPresenter.Bounds.Height, Converter={x:Static converters:FormContentHeightToAlignmentConverter.Instance}}"
                                 Orientation="Horizontal">
                                 <Label
                                     Name="PART_Label"
